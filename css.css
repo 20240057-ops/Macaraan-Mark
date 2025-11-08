@@ -1,0 +1,149 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #fffef2; /* soft white-yellow background */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navbar */
+header {
+  background-color: #ffcc00; /* bright yellow */
+  color: #222;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  background-color: #fff;
+  color: #ffcc00;
+  font-weight: 600;
+}
+
+/* Section Layout */
+.section {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Home Section */
+.home {
+  text-align: center;
+  background: linear-gradient(to bottom right, #fff9c4, #ffeb3b);
+  border-radius: 20px;
+  padding: 4rem 2rem;
+  color: #222;
+}
+
+.home h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #222;
+}
+
+.title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0.5rem 0 1rem;
+}
+
+.intro {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Section Headings */
+.section h2 {
+  color: #ffcc00;
+  border-bottom: 3px solid #ffcc00;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 1rem;
+}
+
+/* Lists and Texts */
+ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+}
+
+p, li {
+  font-size: 1rem;
+  color: #444;
+  margin: 0.3rem 0;
+}
+
+/* Footer */
+footer {
+  background-color: #ffcc00;
+  color: #222;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+  box-shadow: 0 -3px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+  color: #222;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    justify-content: center;
+  }
+
+  .section {
+    paddin
+  }
